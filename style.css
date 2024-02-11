@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightgreen;
+}
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+    padding: 5px 10px;
+    margin: 10px;
+    color: lightpink;
+}
+#input,#searchBtn{
+    background: lightpink;
+    color:black;
+}
+.container form{
+    text-align: center;
+}
+#input,#searchBtn{
+    margin: 2px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.imgDiv{
+    margin:10px;
+    padding:8px;
+    text-align: center;
+}
